@@ -1,0 +1,39 @@
+body
+{
+	
+	background:url("../images/wheel.png");
+	background-size:cover;
+	color: #CFB5BA;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	margin-top:100px;
+margin-right:400px;
+margin-bottom:300px;;
+margin-left:400px;;
+
+
+}
+
+h1
+{
+	color: white;
+	font-size:110px;
+	font-family: Helvetica, sans-serif;
+	font-weight:100;
+}
+ul {
+    
+    list-style-position: inside;
+}
+
+#slogan
+{
+	font-style: italic;
+	font-size: 28px
+}
+
+a
+{
+	color: #AB77BD;
+}
+
