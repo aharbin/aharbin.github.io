@@ -12,6 +12,14 @@ h1
 	color: #fbbfa7;
 }
 
+header{
+	background-size: cover;
+	background-image:url("../images/wheel.png");
+	padding-top: 250px;
+	padding-bottom: 250px;
+
+}
+
 body
 {
 	background-color: #white;
@@ -24,9 +32,7 @@ body
 }
 nav{
 	background-color: white;
-	min-height: 40px;
 	align-content: center;
-	line-height: 40px;
 	font-size: 18px;
 	text-align: left;
 	color: black;
@@ -34,14 +40,23 @@ nav{
 	letter-spacing: -0.5px;
 	text-decoration: none;
 	font-family: 'Istok Web', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
 
-	
+
 }
+#logo
+{
+float: left;
+margin: 0 0 10px 10px;	
+}
+
 .full{
 	width:100%;
 }
 
 .about{
+	padding-top: 50px;
 	margin-left: 400px;
 	margin-right: 400px;
 }
