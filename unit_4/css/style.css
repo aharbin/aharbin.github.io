@@ -5,16 +5,17 @@
 	}
 h1
 {
-	color: white;
+	
 	font-size:60px;
 	font-family: 'Istok Web', sans-serif;
 	font-weight:lighter;
+	color: #5476D6;
 }
 
 body
 {
-	background-color: #456063;
-	color: #CFB5BA;
+	background-color: #white;
+	color: #151E1F;
 	text-align: center;
 	font-family: Helvetica, sans-serif;
 	font-weight:300;
@@ -44,6 +45,9 @@ nav a
 	margin-right: 10px;
 }
 
+nav a:hover{
+	color: #F55739;
+}
 
 
 }
@@ -58,8 +62,10 @@ ul {
 
 #slogan
 {
-	font-style: italic;
-	font-size: 28px
+	
+	font-size: 28px;
+	color:#5476D6;
+	font-family: 'Istok Web', sans-serif;
 }
 
 .contact
