@@ -22,6 +22,11 @@ header{
 	background-image:url("../images/wheel.png");
 	padding-top: 250px;
 	padding-bottom: 250px;
+/*remove this next week*/
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
 
 }
 
@@ -36,7 +41,7 @@ body
 	
 }
 nav{
-	background-color: white;
+	background-color: #E8C66A/*white*/;
 	align-content: center;
 	font-size: 18px;
 	text-align: left;
@@ -63,6 +68,8 @@ margin: 0 0 10px 10px;
 	padding-top: 50px;
 	margin-left: 300px;
 	margin-right: 300px;
+	/*remove this*/
+	background-color: #FFE2B8;
 }
 
 .features{
@@ -75,6 +82,8 @@ margin: 0 0 10px 10px;
 
 .featured{
 text-align: left;
+/*remove this*/
+background-color: #E89C6C;
 
 
 }	
@@ -125,7 +134,7 @@ a:hover{
 }
 
 footer{
-background-color: white;
+background-color:#FF957E /*white*/;
 padding: 50px;
 }
 
