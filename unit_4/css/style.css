@@ -3,6 +3,11 @@
 	padding:0;
 	margin:0;
 	}
+
+#wrapper{
+
+}
+
 h1
 {
 	
@@ -25,9 +30,9 @@ body
 	background-color: #white;
 	color: #151E1F;
 	text-align: center;
-	font-family: Helvetica, sans-serif;
 	font-weight:300;
-	font-family: 'Lora', serif;
+	font-family: 'Istok Web', sans-serif;
+	
 	
 }
 nav{
@@ -45,8 +50,7 @@ nav{
 
 
 }
-#logo
-{
+#logo{
 float: left;
 margin: 0 0 10px 10px;	
 }
@@ -60,32 +64,51 @@ margin: 0 0 10px 10px;
 	margin-left: 400px;
 	margin-right: 400px;
 }
-	
+
+.features{
+	background-color: #f9f9f9;
+	padding-right: 160px;
+	padding-left:160px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.featured{
+text-align: left;
+
+
+}	
+h2{
+	font-size: 24px;
+	font-family: 'Lora', serif;
+}
+h3{
+	font-size: 12px;
+	font-family: 'Istok Web', sans-serif;
+	font-weight:lighter;
+	padding: .8em, 0;
+}
 
 nav a:hover{
-	color: #71CCC0;
+	color: #fbbfa7;
 }
 
-
+ul { 
+    list-style: none;
 }
 
-
-
-
-ul {
-    
-    list-style-type: : none outside none;
+#slogan{
+	font-size: 24px;
+	color:#fbbfa7;
+	font-family: 'Lora', serif;
 }
 
-#slogan
-{
-	
-	font-size: 28px;
+.CTA{
+	font-size: 16px;
 	color:#fbbfa7;
 	font-family: 'Istok Web', sans-serif;
-
+	padding-top: 15px;
 }
-
 .contact
 {
 	color: #AB77BD;
@@ -96,9 +119,12 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+	color: #fbbfa7;
+}
+
 footer{
 background-color: white;
-min-height: 200px;
-padding: 100px;
+padding: 50px;
 }
 
