@@ -8,8 +8,7 @@
 
 }
 
-h1
-{
+h1{
 	
 	font-size:60px;
 	font-family: 'Istok Web', sans-serif;
@@ -28,11 +27,12 @@ header{
     padding: 20px;
 }
 
-}
 
-body
-{
-	background-color: #white;
+
+
+body{
+
+	background-color: white;
 	color: #151E1F;
 	text-align: center;
 	font-weight:300;
@@ -40,6 +40,13 @@ body
 	
 	
 }
+
+p{
+    text-align: center;
+	font-weight:300;
+	font-family: 'Istok Web', sans-serif;	
+}
+
 nav{
 	background-color: #E8C66A/*white*/;
 	align-content: center;
@@ -55,6 +62,7 @@ nav{
 
 
 }
+
 #logo{
 float: left;
 margin: 0 0 10px 10px;	
@@ -68,6 +76,7 @@ margin: 0 0 10px 10px;
 	padding-top: 50px;
 	margin-left: 300px;
 	margin-right: 300px;
+	text-align: center;
 	/*remove this*/
 	background-color: #FFE2B8;
 }
@@ -81,16 +90,28 @@ margin: 0 0 10px 10px;
 }
 
 .featured{
-text-align: left;
+
 /*remove this*/
+align-content: left;
 background-color: #E89C6C;
+float: left;
 
 
 }	
+
+.feat{
+	float: left; 
+	margin: 0px 15px 15px 0px;" 
+}
+
+.textfeature{
+	display:inline;
+}
 h2{
 	font-size: 24px;
 	font-family: 'Lora', serif;
 }
+
 h3{
 	font-size: 12px;
 	font-family: 'Istok Web', sans-serif;
@@ -102,7 +123,7 @@ nav a:hover{
 	color: #fbbfa7;
 }
 
-ul { 
+ul{ 
     list-style: none;
 }
 
@@ -119,8 +140,7 @@ ul {
 	margin-top: 0.8em;
 }
 
-.contact
-{
+.contact{
 	color: #AB77BD;
 }
 
@@ -133,8 +153,18 @@ a:hover{
 	color: #fbbfa7;
 }
 
+.feat{
+	float: left; 
+	margin: 0px 15px 15px 0px;" 
+}
+
+.textfeature{
+	display:inline;
+}
+
 footer{
 background-color:#FF957E /*white*/;
 padding: 50px;
+clear: both;
 }
 
