@@ -21,10 +21,8 @@ header{
 	background-image:url("../images/wheel.png");
 	padding-top: 250px;
 	padding-bottom: 250px;
-/*remove this next week*/
-    background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
+
+    
 }
 
 
@@ -34,7 +32,6 @@ body{
 
 	background-color: white;
 	color: #151E1F;
-	text-align: center;
 	font-weight:300;
 	font-family: 'Istok Web', sans-serif;
 	
@@ -42,13 +39,12 @@ body{
 }
 
 p{
-    text-align: center;
 	font-weight:300;
 	font-family: 'Istok Web', sans-serif;	
 }
 
 nav{
-	background-color: #E8C66A/*white*/;
+	background-color: white;
 	align-content: center;
 	font-size: 18px;
 	text-align: left;
@@ -77,8 +73,6 @@ margin: 0 0 10px 10px;
 	margin-left: 300px;
 	margin-right: 300px;
 	text-align: center;
-	/*remove this*/
-	background-color: #FFE2B8;
 }
 
 .features{
@@ -92,9 +86,8 @@ margin: 0 0 10px 10px;
 .featured{
 
 /*remove this*/
-align-content: left;
 background-color: #E89C6C;
-float: left;
+
 
 
 }	
@@ -105,7 +98,7 @@ float: left;
 }
 
 .textfeature{
-	display:inline;
+	text-align: left;
 }
 h2{
 	font-size: 24px;
@@ -153,18 +146,11 @@ a:hover{
 	color: #fbbfa7;
 }
 
-.feat{
-	float: left; 
-	margin: 0px 15px 15px 0px;" 
-}
-
-.textfeature{
-	display:inline;
-}
 
 footer{
-background-color:#FF957E /*white*/;
+background-color:white;
 padding: 50px;
 clear: both;
+text-align: center;
 }
 
