@@ -30,6 +30,11 @@ header{
 
 }
 
+img {
+	float: left; 
+	margin: 0px 40px 15px 0px;
+}
+
 body
 {
 	background-color: #white;
@@ -81,9 +86,11 @@ margin: 0 0 10px 10px;
 }
 
 .featured{
-text-align: left;
+
 /*remove this*/
+align-content: left;
 background-color: #E89C6C;
+float: left;
 
 
 }	
@@ -133,8 +140,18 @@ a:hover{
 	color: #fbbfa7;
 }
 
+.feat{
+	float: left; 
+	margin: 0px 15px 15px 0px;" 
+}
+
+.textfeature
+{
+	display:inline;
+}
 footer{
 background-color:#FF957E /*white*/;
 padding: 50px;
+clear: both;
 }
 
