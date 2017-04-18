@@ -6,21 +6,21 @@
 	@import url('https://fonts.googleapis.com/css?family=Lora');
 	</style>
 	<title>Seven Wonders</title>
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+       <link rel="stylesheet" type="text/css" href="css/reset.css">
       <link rel ="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
 	<div id="wrapper">	
 		<nav>
-		<div id="shopping">
+			<div id="shopping">
 				<a href="#" ><i class="material-icons">shopping_cart</i></a>
 			</div>
 			<img id="logo" src="images/logo.png">
 			<a href="#">&nbsp;&nbsp;ABOUT</a>&nbsp;&nbsp;&nbsp;
 			<a href="#">SHOP</a>&nbsp;&nbsp;&nbsp;
-			<a href="#">EXHIBITIONS</a>&nbsp;&nbsp;
+			<a href="#">COLLECTIONS</a>&nbsp;&nbsp;
 			<a href="#">FAQs</a>
 		</nav>
 		<header>
@@ -36,37 +36,41 @@
 					<li><i class="material-icons">spa</i>Mugs</li>
 					<li><i class="material-icons">spa</i>Canisters</li>
 					<li><i class="material-icons">spa</i>Coasters</li>
-				</ul></br></br>
+				</ul>
 			</p>
 		</section>
-		<section class="features">
+		<section id="two_column" class="clearfix">
 			<article class ="featured">
-				<img class="feat" src="images/bowls.png" alt ="spotty bowl" title="spotty bowl" width="200px">
+				<img class="left" src="images/bowls.png" alt="spotty bowl" title="spotty bowl" <!-- width="16%" -->
+				<div class="right">
 				<h3>FEATURED COLLECTION</h3>
 				<h2>Seeing spots</h2>
-				<p>The seeing spots collection celebrates Alexandria's background growing up with a family heavily involved in breeding and exhibiting Dalmatian dogs, while still embracing her fun, quirky aesthetic</p>
+				<p>The seeing spots collection celebrates Alexandria's background growing up with a family heavily involved in breeding and exhibiting Dalmatian dogs, while still embracing her fun, quirky aesthetic.</p>
 				</br>
-				<a href ="#" class="CTA">Shop Now <i class="material-icons">arrow_forward</i></a>
-			</article></body></br></br></br></br></br></br></br>
+				<a href="#" class="CTA">Shop Now <i class="material-icons">arrow_forward</i></a>
+				</div>
+			</article></body>
 
-			<article class ="featured">
-				<img class="feat" src="images/ruby.png" alt ="ruby" title="ruby"  width="200px">
-				<div class="textfeatured">
+			<article class="featured">
+				<img class="left" src="images/ruby.png" alt="ruby" title="ruby"  <!-- width="16%" -->
+				<div class="right">
 				<h3>SPOTLIGHT</h3>
 				<h2>Meet the artist</h2>
 				<p>Alexandria grew up in coastal Wollongong, and brings this carefree, coastal lifestyle into the aesthetic of her pieces. She works out of a studio in Mascot, with her dog, Ruby always at hand.</p>
 				</br>
-				</p><a href ="#" class="CTA">Read more <i class="material-icons">arrow_forward</i></a>
+				</p><a href="#" class="CTA">Read more <i class="material-icons">arrow_forward</i></a>
 				</div>
-			</article></body>
+			</article>
 		</section>
 		<footer>
-		<small>
-		<a href="#">&nbsp;&nbsp;ABOUT</a>&nbsp;&nbsp;|
-			<a href="#">SHOP</a>&nbsp;&nbsp;|
-			<a href="#">EXHIBITIONS</a>&nbsp;|
-			<a href="#">FAQs</a>
-			</small></br></br>
+			<div id="footernav">
+				<small>
+				<a href="#">&nbsp;&nbsp;ABOUT</a>&nbsp;&nbsp;|
+				<a href="#">SHOP</a>&nbsp;&nbsp;|
+				<a href="#">COLLECTIONS</a>&nbsp;|
+				<a href="#">FAQs</a>
+				</small>
+				</div>
 			<a class="contact" href="mailto:alexandriakharbin@gmail.com? subject=enquiries"><img src="images/mail.png" alt="mail" title="contact me"> </a> &nbsp; 
 			<a href=#><img src="images/insta.png" alt="instagram" title="instagram"></a>
 		</footer>

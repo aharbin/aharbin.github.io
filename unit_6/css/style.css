@@ -6,8 +6,8 @@
 	}
 
 #wrapper{
-width:1240px;
-margin: 0 auto;
+	width:1240px;
+	margin: 0 auto;
 }
 
 h1{
@@ -22,11 +22,8 @@ header{
 	background-size: cover;
 	background-image:url("../images/wheel.png");
 	padding-top: 250px;
-	padding-bottom: 250px;
-
-    
+	padding-bottom: 250px;   
 }
-
 
 #shopping{
 	float:right;
@@ -37,8 +34,7 @@ body{
 	background-color: white;
 	color: #151E1F;
 	font-weight:300;
-	font-family: 'Istok Web', sans-serif;
-	
+	font-family: 'Istok Web', sans-serif;	
 	
 }
 
@@ -63,8 +59,8 @@ nav{
 }
 
 #logo{
-float: left;
-margin: 0 0 10px 10px;	
+	float: left;
+	margin: 0 0 10px 10px;	
 }
 
 .full{
@@ -78,7 +74,7 @@ margin: 0 0 10px 10px;
 	text-align: center;
 }
 
-.features{
+.clearfix{
 	background-color: #f9f9f9;
 	padding-right: 160px;
 	padding-left:160px;
@@ -86,21 +82,28 @@ margin: 0 0 10px 10px;
 	padding-bottom: 40px;
 }
 
-.featured{
-
-
-
-
-
-}	
-
-.feat{
-	float: left; 
-	margin: 0px 15px 15px 0px;" 
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
-.textfeature{
+.featured{
+	padding-bottom: 60px;
+}	
+
+.left{
+	float: left; 
+	margin: 0px 15px 15px 0px;
+	width:18%;
+}
+
+.right{
 	text-align: left;
+	width:100%;
 }
 h2{
 	font-size: 24px;
@@ -148,11 +151,18 @@ a:hover{
 	color: #fbbfa7;
 }
 
-
 footer{
-background-color:white;
-padding: 50px;
-clear: both;
-text-align: center;
+	background-color:white;
+	padding: 50px;
+	clear: both;
+	text-align: center;
 }
 
+.about{
+	padding-bottom: 40px;
+}
+
+#footernav{
+	padding-top:20px;
+	padding-bottom:20px;
+}
