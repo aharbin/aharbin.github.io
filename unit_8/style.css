@@ -1,0 +1,227 @@
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	}
+
+/*#wrapper{
+	width:1240px;
+	margin: 0 auto;*/
+}
+
+h1{
+	
+	font-size:5em;
+	font-family: 'Istok Web', sans-serif;
+	font-weight:lighter;
+	color: #fbbfa7;
+}
+
+header{
+	background-size: cover;
+	background-image:url("../images/wheel.png");
+	padding-top: 20em;
+	padding-bottom: 20em;   
+}
+
+#shopping{
+	float:right;
+}
+
+body{
+
+	background-color: white;
+	color: #151E1F;
+	font-weight:300;
+	font-family: 'Istok Web', sans-serif;	
+	font-size: 1em;
+	
+}
+
+p{
+	font-weight:300;
+	font-family: 'Istok Web', sans-serif;	
+}
+
+nav{
+	background-color: white;
+	font-size: 1.2em;
+	text-align: left;
+	color: black;
+	font-weight:lighter;
+	letter-spacing: -0.5px;
+	text-decoration: none;
+	font-family: 'Istok Web', sans-serif;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	padding-right: 2em;
+
+}
+
+#logo{
+	float: left;
+	margin: 0em 0em 1em 1em;	
+}
+
+.full{
+	width:100%;
+}
+
+.about{
+	padding-top: 4em;
+	margin-left: 20em;
+	margin-right: 20em;
+	text-align: center;
+}
+
+.clearfix{
+	background-color: #f9f9f9;
+	padding-right: 10em;
+	padding-left:10em;
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.featured{
+	padding-bottom: 60px;
+}	
+
+.left{
+	float: left; 
+	margin: 0em 1em 1em 0em;
+	width:18%;
+}
+
+.right{
+	text-align: left;
+	width:100%;
+}
+h2{
+	font-size: 2em;
+	font-family: 'Lora', serif;
+	padding-bottom: .8em;
+}
+
+h3{
+	font-size: 1em;
+	font-family: 'Istok Web', sans-serif;
+	font-weight:lighter;
+	padding: .8em, 0;
+}
+
+nav a:hover{
+	color: #fbbfa7;
+}
+
+ul{ 
+    list-style: none;
+}
+
+#slogan{
+	font-size: 2em;
+	color:#fbbfa7;
+	font-family: 'Lora', serif;
+}
+
+.CTA{
+	font-size: 1.5em;
+	color:#fbbfa7;
+	font-family: 'Istok Web', sans-serif;
+	}
+
+.contact{
+	color: #AB77BD;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #fbbfa7;
+}
+
+footer{
+	background-color:white;
+	padding: 4em;
+	clear: both;
+	text-align: center;
+}
+
+.about{
+	padding-bottom: 4em;
+}
+
+#footernav{
+	padding-top:2em;
+	padding-bottom:2em;
+}
+
+@media (max-width: 800px) {
+	
+nav {
+    float: none;
+  }
+
+  nav a {
+    margin: 0 1.6em .75em 0;
+  }
+	#shopping{
+		float: none;
+	}
+	.left{
+		float: none;
+	}
+	}
+
+@media only screen and (max-width: 480px) {
+  h1, nav {
+    display: block;
+    text-align: center;
+  }
+    nav a {
+    margin: 0 1em 1em;
+  }
+}
+img {
+    width: 230px;
+  }
+  section, div {
+    width: 100%;
+    padding: .6em;
+  }
+  #services {
+    float: none;
+    font-size: 1.4em;
+  }
+ h2 {
+    font-size: 1em;
+    display: inline;
+  }
+  p, ul {
+    margin: 1.8em .6em 0;
+  }
+  li {
+    width: 80%;
+    outline-width: .5em;
+    padding: .5em;
+  }
+li {
+    width: 80%;
+    outline-width: .5em;
+    padding: .5em;
+    height: 2em;
+    line-height: 2em;
+  }
+}
