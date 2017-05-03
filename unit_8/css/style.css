@@ -5,10 +5,10 @@
 	box-sizing: border-box;
 	}
 
-#wrapper{
+/*#wrapper{
 	width:1240px;
 	margin: 0 auto;
-}
+}*/
 
 h1{
 	
@@ -35,7 +35,7 @@ body{
 	color: #151E1F;
 	font-weight:300;
 	font-family: 'Istok Web', sans-serif;	
-	font-size: 1em;
+	font-size: 14px;
 	
 }
 
@@ -134,7 +134,7 @@ ul{
 }
 
 .CTA{
-	font-size: 1.5em;
+	font-size: 1em;
 	color:#fbbfa7;
 	font-family: 'Istok Web', sans-serif;
 	}
@@ -168,5 +168,67 @@ footer{
 	padding-bottom:2em;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 400px) {
+  	body{
+    	font-size:12px;
 	}
+	header{
+  		width:100%;
+  		max-height: 200px;
+  	}
+  	.about{
+    	display: none;
+	}
+	.biglogo{
+		max-width: 50%;
+	}
+	.about{
+		margin-left: 2em;
+		margin-right: 2em;
+		text-align: center;
+	}
+
+	.clearfix{
+		padding-right: 2em;
+		padding-left:2em;
+	}
+	.left{
+		width:80%;
+		float:none;
+	}
+	
+	#logo{
+	float:none;
+	text-align: center;
+	}
+
+}
+@media screen and (max-width: 780px) {
+	body{
+    	font-size:14px;
+	}
+	header{
+  		width:100%;
+  		max-height: 200px;
+  	}
+  	.about{
+    	display: none;
+	}
+	.biglogo{
+		max-width: 50%;
+	}
+	.about{
+		margin-left: 2em;
+		margin-right: 2em;
+		text-align: center;
+	}
+
+	.clearfix{
+		padding-right: 2em;
+		padding-left:2em;
+	}
+	.left{
+		width:40%;	
+	}
+	
+}
