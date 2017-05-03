@@ -176,6 +176,7 @@ footer{
 }
 
 
+<<<<<<< HEAD:style.css
 @media screen and (max-width: 780px){
 	nav{
 		background-color: red;
@@ -208,5 +209,11 @@ footer{
     display: block;
     text-align: left;
   }
+=======
+@media screen and (max-width: 780px) {
+	nav {
+		background-color: red;
+	}
+>>>>>>> origin/master:unit_8/style.css
 }
 
