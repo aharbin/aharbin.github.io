@@ -6,7 +6,7 @@
 	}
 
 /*#wrapper{
-	width:1240px;
+	max-width:1240px;
 	margin: 0 auto;
 }*/
 
@@ -21,6 +21,7 @@ h1{
 header{
 	background-size: cover;
 	background-image:url("../images/wheel.png");
+	background-position: center;
 	padding-top: 20em;
 	padding-bottom: 20em;   
 }
@@ -167,42 +168,6 @@ footer{
 	padding-top:2em;
 	padding-bottom:2em;
 }
-
-@media screen and (max-width: 400px) {
-  	body{
-    	font-size:12px;
-	}
-	header{
-  		width:100%;
-  		max-height: 200px;
-  	}
-  	.about{
-    	display: none;
-	}
-	.biglogo{
-		max-width: 50%;
-	}
-	.about{
-		margin-left: 2em;
-		margin-right: 2em;
-		text-align: center;
-	}
-
-	.clearfix{
-		padding-right: 2em;
-		padding-left:2em;
-	}
-	.left{
-		width:80%;
-		float:none;
-	}
-	
-	#logo{
-	float:none;
-	text-align: center;
-	}
-
-}
 @media screen and (max-width: 780px) {
 	body{
     	font-size:14px;
@@ -232,3 +197,40 @@ footer{
 	}
 	
 }
+
+@media screen and (max-width: 400px) {
+  	body{
+    	font-size:12px;
+	}
+	header{
+  		width:100%;
+  		max-height: 200px;
+  	}
+  	.about{
+    	display: none;
+	}
+	.biglogo{
+		max-width: 50%;
+	}
+	.about{
+		margin-left: 2em;
+		margin-right: 2em;
+		text-align: center;
+	}
+
+	.clearfix{
+		padding-right: 2em;
+		padding-left:2em;
+	}
+	.left{
+		width:100%;
+		float:none;
+	}
+	
+	#logo{
+	float:none;
+	text-align: center;
+	}
+
+}
+
